@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA4C5801EF2B91A00A2311D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4C57F1EF2B91A00A2311D /* AppDelegate.m */; };
 		4EB542FB1EE107F2001C97B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB542FA1EE107F2001C97B1 /* main.m */; };
-		4EB542FE1EE107F2001C97B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB542FD1EE107F2001C97B1 /* AppDelegate.m */; };
 		4EB543011EE107F2001C97B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB543001EE107F2001C97B1 /* ViewController.m */; };
 		4EB543061EE107F2001C97B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB543051EE107F2001C97B1 /* Assets.xcassets */; };
 		4EB543091EE107F2001C97B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB543071EE107F2001C97B1 /* LaunchScreen.storyboard */; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EA4C57E1EF2B91A00A2311D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EA4C57F1EF2B91A00A2311D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EB542F61EE107F2001C97B1 /* YRTextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRTextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB542FA1EE107F2001C97B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EB542FC1EE107F2001C97B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		4EB542FD1EE107F2001C97B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		4EB542FF1EE107F2001C97B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4EB543001EE107F2001C97B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4EB543051EE107F2001C97B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,8 +162,8 @@
 		4EB543361EE10C46001C97B1 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				4EB542FC1EE107F2001C97B1 /* AppDelegate.h */,
-				4EB542FD1EE107F2001C97B1 /* AppDelegate.m */,
+				4EA4C57E1EF2B91A00A2311D /* AppDelegate.h */,
+				4EA4C57F1EF2B91A00A2311D /* AppDelegate.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 			files = (
 				4EB5433C1EE11012001C97B1 /* UIView+Extension.m in Sources */,
 				4EB543011EE107F2001C97B1 /* ViewController.m in Sources */,
-				4EB542FE1EE107F2001C97B1 /* AppDelegate.m in Sources */,
+				4EA4C5801EF2B91A00A2311D /* AppDelegate.m in Sources */,
 				4EB5432F1EE10840001C97B1 /* YRTextView.m in Sources */,
 				4EB543391EE10F94001C97B1 /* EditViewController.m in Sources */,
 				4EB542FB1EE107F2001C97B1 /* main.m in Sources */,
@@ -531,6 +531,7 @@
 				4EB543251EE107F2001C97B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB543261EE107F2001C97B1 /* Build configuration list for PBXNativeTarget "YRTextViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				4EB543281EE107F2001C97B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB543291EE107F2001C97B1 /* Build configuration list for PBXNativeTarget "YRTextViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				4EB5432B1EE107F2001C97B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
