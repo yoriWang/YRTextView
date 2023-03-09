@@ -2,7 +2,7 @@ YRTextView
 ===
 对UITextView的简单封装
 
->>下载项目的demo后，请将图中所示YRTextView文件拖至你的项目中
+> 下载项目的demo后，请将图中所示YRTextView文件拖至你的项目中
 ![github](https://github.com/yoriWang/ImageSources/raw/master/Images/projectImg.png)
 
 在需要添加textview的viewcontroller中导入头文件
